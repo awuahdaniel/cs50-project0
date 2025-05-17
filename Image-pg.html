@@ -2,17 +2,17 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Image-pg.css">
     </head>
     <div class="links">
-        <li><a href="Image-pg.html" id="images">Images</a></li>
-        <li><a href="#">Advanced Search</a></li>
+        <li><a href="index.html" id="images">Google Search</a></li>
     </div>
     <body>
         <!--- GOOGLE IMAGE-->
         <div class="g-image">
             <img src="google logo.png" alt="google-logo" width="190" draggable="false">
         </div>
+        <h5 class="lil-img">images</h5>
 
         <!-- SEARCH BAR AND ICON -->
     <container class="tainer">
@@ -22,11 +22,10 @@
                 <input type="text" name="q" id="search" method="GET">
         </div> 
 
-
     </container>
                 <div class="buttons">
+                    <input type="hidden" name="udm" value="2">
                     <input type="submit" value="Google Search" id="src-btn">
-                    <input type="submit" name="btnI" value="I'm Feeling Lucky" id="fel-btn">
                 </div>
     </body>
 </html>

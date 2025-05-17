@@ -16,11 +16,21 @@ a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.685);
     font-family: Arial, sans-serif;
-    font-size: 0.56rem;
+    font-size: 0.6rem;
     letter-spacing: -0.04cap;
     font-weight: 300;
 }
 
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-left: 136px;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 0.65rem;
+    color: #4285f4;
+}
 
 a:hover{
     text-decoration: underline;
@@ -155,22 +165,6 @@ li{
 }
 
 #src-btn:hover{
-    box-shadow: 0px 0.2px 1.5px 0.4px rgba(128, 128, 128, 0.420);
-    border-radius: 1px;
-}
-
-#fel-btn{
-    margin-right: 10px;
-    padding: 6px;
-    border: none;
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    font-size: 0.6rem;
-    color: rgba(0, 0, 0, 0.719);  
-    border-radius: 2px;
-}
-
-#fel-btn:hover{
     box-shadow: 0px 0.2px 1.5px 0.4px rgba(128, 128, 128, 0.420);
     border-radius: 1px;
 }
